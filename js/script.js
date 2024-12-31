@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var typed = new Typed(".typing", {
         strings: ["Selamat Datang di Website Klasifikasi Hewan", "Fariza Zea De Asminto_0110124207_SI04"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 10,
         loop: true
     });
   });
