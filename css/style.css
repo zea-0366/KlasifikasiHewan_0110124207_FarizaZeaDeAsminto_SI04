@@ -123,39 +123,10 @@ footer {
 a {
   color: #5f0707;
   font-weight: bold ;
-  font-size: xx-large;
+  font-size: x-large;
 }
 
-@media (max-width:991px) {
 
-  .contact .contact-info-item,
-  .portfolio .portfolio-item,
-  .service .service-item {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
 
-  .home .home-info {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
 
-  /*  .home .home-img {
-    display: none;
-  } */
-}
 
-@media (max-width:530px) {
-
-  .contact .contact-form .col-6,
-  .contact .contact-info-item,
-  .portfolio .portfolio-item,
-  .service .service-item,
-  .about .about-content .experience,
-  .about .about-content .education,
-  .about .about-content .skills,
-  .about .about-content .personal-info {
-    flex: 0 0 100%;
-    min-width: 100%;
-  }
-}
