@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
   $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Selamat Datang di Website Klasifikasi Hewan", "Fariza Zea De Asminto_0110124207_SI04"],
+        strings: ["Selamat Datang di Website Klasifikasi Hewan","| Created by ", "Fariza Zea De Asminto_0110124207_SI04"],
         typeSpeed: 100,
         backSpeed: 10,
         loop: true
