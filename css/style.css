@@ -55,10 +55,6 @@ img.kuda {
   cursor: pointer;
 }
 
-img.kuda {
-  cursor: pointer;
-}
-
 img.burung {
   cursor: pointer;
 }
@@ -76,5 +72,9 @@ img.harimau{
 }
 
 img.macantutul{
+  cursor: pointer;
+}
+
+img.hyena {
   cursor: pointer;
 }
