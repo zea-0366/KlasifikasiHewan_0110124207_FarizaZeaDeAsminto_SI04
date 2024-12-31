@@ -30,4 +30,38 @@ body {
    height: 200px;
  }
  
- 
+ img.sapi {
+  cursor: pointer;
+ }
+
+img.kambing {
+  cursor: pointer;
+}
+
+img.kerbau {
+  cursor: pointer;
+}
+
+img.anjing {
+  cursor: pointer;
+}
+
+img.kucing {
+  cursor: pointer;
+}
+
+img.kuda {
+  cursor: pointer;
+}
+
+img.kuda {
+  cursor: pointer;
+}
+
+img.burung {
+  cursor: pointer;
+}
+
+img.ayam{
+  cursor: pointer;
+}

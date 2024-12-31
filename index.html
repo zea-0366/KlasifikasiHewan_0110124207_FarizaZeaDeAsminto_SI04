@@ -11,26 +11,36 @@
 
 <button class="accordion">Hewan Ternak</button>
   <div class="panel">
-    <img src="img/cow.gif">
-    <audio src="audio/cow.mp3" autoplay>Suara Sapi</audio>
-    <img src="img/goat.gif">
-    <img src="img/kerbau.gif">
-    <img src="img/kuda.gif">
+    <p><b>Arahkan Kursor Yang Dituju Ke Hewan</b></p>
+    <img src="img/cow.gif"  class="sapi" alt="Sapi" onclick="playSound('cowSound')"> 
+    <audio id="cowSound" src="audio/cow.mp3"></audio>
+      
+    <img src="img/goat.gif" class="kambing" alt="Kambing" onclick="playSound('goatSound')"> <audio id="goatSound" src="audio/goat.mp3"></audio>
+   
+    <img src="img/kerbau.gif"  class="kerbau" alt="Kerbau" onclick="playSound('kerbauSound')"> <audio id="kerbauSound" src="audio/kerbau.mp3"></audio>
     
-      <p>Sapi,Kambing, Kerbau dan Kuda termasuk hewan ternak yang banyak dipelihara oleh manusia. Daging dan susu yang dihasilkan oleh sapi dan kambing bisa dikomsumsi, hewan-hewan diatas termasuk hewan herbivora atau bisa disebut hewan pemakan tumbuhan</p>
+    <img src="img/kuda.gif"  class="kuda" alt="Kuda" onclick="playSound('kudaSound')"> <audio id="kudaSound" src="audio/kuda.mp3"></audio>
+    
+    
+      <p>Sapi, Kambing, Kerbau dan Kuda termasuk hewan ternak yang banyak dipelihara oleh manusia. Daging dan susu yang dihasilkan oleh sapi dan kambing bisa dikomsumsi, hewan-hewan diatas termasuk hewan herbivora atau bisa disebut hewan pemakan tumbuhan</p>
   </div>
 
   <button class="accordion">Hewan Rumahan</button>
   <div class="panel">
-    <img src="img/dog.gif">
-    <img src="img/cat.gif">
-    <img src="img/ikan.gif">
-    <img src="img/hamster.gif">
+    <p><b>Arahkan Kursor Yang Dituju Ke Hewan</b></p>
+    <img src="img/dog.gif" class="anjing" alt="Anjing" onclick="playSound('dogSound')"> <audio id="dogSound" src="audio/dog.mp3"></audio>
+    
+    <img src="img/cat.gif" class="kucing" alt="Kucing" onclick="playSound('catSound')"> <audio id="catSound" src="audio/cat.mp3"></audio>
+
+    <img src="img/burung.gif" class="burung" alt="burung" onclick="playSound('burungSound')"> <audio id="burungSound" src="audio/burung.mp3"></audio>
+
+    <img src="img/ayam.gif" class="ayam" alt="ayam" onclick="playSound('ayamSound')"> <audio id="ayamSound" src="audio/ayam.mp3"></audio>
     <p>Anjing, Kucing, Ikan dan Hamster termasuk hewan rumahan yang banyak dipelihara oleh manusia. Anjing, Kucing biasanya makan yang berbau daging atau bisa disebut karnivora. Sedangkan Ikan pelet atau serangga kecil dan Hamster biasanya makan biji-bijian</p>
   </div>
 
   <button class="accordion">Hewan Liar</button>
   <div class="panel">
+    <p><b>Arahkan Kursor Yang Dituju Ke Hewan</b></p>
     <img src="img/lion.gif">
     <img src="img/tiger.gif">
     <img src="img/macan tutul.gif">
@@ -40,4 +50,3 @@
 </div>
 </body>
 </html> 
-
