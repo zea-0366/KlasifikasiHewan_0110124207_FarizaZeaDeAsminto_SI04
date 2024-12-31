@@ -1,4 +1,5 @@
 alert("Selamat Datang Di Klasifikasi Hewan!!!")
+
 document.addEventListener("DOMContentLoaded", function() {
   var acc = document.getElementsByClassName("accordion");
   var i;
@@ -14,10 +15,21 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   }
+  $(document).ready(function(){
+    // typing text animation script
+    var typed = new Typed(".typing", {
+        strings: ["Selamat Datang di Website Klasifikasi Hewan"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+  });
 });
+
+
 
 function playSound(soundId) { 
   var audio = document.getElementById(soundId); audio.play(); }
   
-  
+
 
